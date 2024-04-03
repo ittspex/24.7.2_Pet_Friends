@@ -1,15 +1,13 @@
-Тестовый проект к заданию 24.7.2 модулю SkillFactory курса QAP157
+Test project for task 24.7.2 of the SkillFactory module of the QAP157 course
 
-В директории /tests располагается файл с тестами
+The /tests directory contains a file with tests.
 
-В директории /tests/images лежат картинки для теста добавления питомца и теста добавления картинки
+The /tests/images directory contains pictures for the adding a pet test and the adding a picture test.
 
-В корневой директории лежит файл settings.py - содержит информацию о валидном и не валидном логине и пароле
+In the root directory there is a file settings.py - it contains information about valid and invalid login and password/
+In the root directory there is a file api.py, which is a library for the REST api service of the Pet Friends web application
 
-В корневой директории лежит файл api.py, который является библиотекой к REST api сервису веб приложения Pet Friends
+The api library is written in a class, which complies with the principles of OPP and allows you to conveniently use its methods. When the library is initialized, the base_url variable is declared, which is used when generating the request url.
 
-Библиотека api написана в классе, что соответствует принципам ОПП и позволяет удобно пользоваться её методами. При инициализации библиотеки объявляется переменная base_url которая используется при формировании url запроса.
-
-Методы имеют подробное описание, тесты имеют поверхостное описание.
-
-Тесты проверяют работу методов используя api библиотеку.
+Methods have a detailed description, tests have a superficial description.
+Tests check the operation of methods using the API library.
