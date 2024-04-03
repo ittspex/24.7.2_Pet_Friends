@@ -1,4 +1,4 @@
-Test project for task 24.7.2 of the SkillFactory module of the QAP157 course
+Test project for task 24.7.2 of the SkillFactory module of the QAP course
 
 The /tests directory contains a file with tests.
 
